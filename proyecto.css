@@ -1,0 +1,59 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color: blue;
+    border-style:groove;
+    border-color: black; 
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+* {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: aqua;
+}
+#advertencia {
+    color: red;
+}
+
+table, td, th {
+    background-color: white;
+    border-style: double;
+    border-color : black;
+}
+
+button , a {
+    background-color: gray;
+}
+
+.contenedorImagenes {
+    display:flex;
+    justify-content:flex-start;
+}
+
+img {
+    width: 200px;
+    
+    border-style:groove;
+    border-color: black;
+}
+ #misterioso p{
+    background-color: gray;
+    font-size:xx-large;
+    font-family: fantasy;
+ }
+#misterioso {
+
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
